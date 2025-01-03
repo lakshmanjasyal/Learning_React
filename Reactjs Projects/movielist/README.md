@@ -15,7 +15,7 @@ A dynamic and responsive movie listing application built using React.js and Vite
 
 ## 🌟 Live Demo
 
-Check out the live version of the project here: [Movie List by Lakshman](#) *(Replace `#` with the actual link to your deployment)*
+Check out the live version of the project here: [Movie List by Lakshman](https://movie-listbylakshman.netlify.app/) 
 
 ---
 
@@ -34,9 +34,17 @@ Check out the live version of the project here: [Movie List by Lakshman](#) *(Re
 ### Prerequisites
 - [Bun](https://bun.sh/) installed on your local machine.
 - TMDB API key. Get yours [here](https://www.themoviedb.org/documentation/api).
-
 ### Steps to Run Locally
-1. **Clone the Repository**  
+
+1. **Clone the Project and Set Up Locally**  
+   Run the following commands to clone the project, install dependencies, and start the development server:
    ```bash
    git clone https://github.com/your-username/movie-list.git
    cd movie-list
+   bun install
+   bun run dev
+   bun run build
+
+
+This should now be a clear and concise README for anyone wanting to run or contribute to your project. Let me know if you need further tweaks! 😊
+
